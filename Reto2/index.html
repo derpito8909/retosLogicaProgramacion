@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto2</title>
+    <script src="./index.js" async></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Reto 2</h1>
+      <h2>Generador de numeros primos</h2>
+    </header>
+    <main>
+      <section>
+        <p>Digite un numero:</p>
+        <article class="input-number">
+          <input type="number" pattern="[\d]{9}" id="idNumber" />
+          <input type="button" value="Enviar" id="btnNumber" />
+        </article>
+        <article class="listPrimeNumber">
+          <h3>Numeros primos menores al numero digitado:</h3>
+          <p id="primeNumbers"></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
